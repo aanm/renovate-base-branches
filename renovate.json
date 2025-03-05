@@ -1,1 +1,16 @@
-{}
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    ":gitSignOff",
+    ":dependencyDashboard",
+    "helpers:pinGitHubActionDigests",
+    "github>aanm/renovate-base-branches//.github/renovate.json5#pr/aanm-test",
+  ],
+  "repositories": ["aanm/renovate-base-branches"],
+  "requireConfig": "ignored",
+  "baseBranches": [
+    "main-fork",
+    "branch-2"
+  ],
+}
