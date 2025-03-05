@@ -1,4 +1,4 @@
-# minimal-reproduction-template
+# minimal-reproduction-template branch-2
 
 First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
 
