@@ -8,7 +8,7 @@
     "github>aanm/renovate-base-branches//.github/renovate.json5#pr/aanm-test",
   ],
   "baseBranches": [
-    "main-fork",
+    "main",
     "branch-2"
   ],
 }
