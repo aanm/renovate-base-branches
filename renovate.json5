@@ -1,19 +1,19 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:base",
-    ":gitSignOff",
-    ":dependencyDashboard",
-    "helpers:pinGitHubActionDigests",
-    "github>aanm/renovate-base-branches//.github/renovate/renovate.json5#pr/aanm-test",
+  $schema: 'https://docs.renovatebot.com/renovate-schema.json',
+  extends: [
+    'config:recommended',
+    ':gitSignOff',
+    ':dependencyDashboard',
+    'helpers:pinGitHubActionDigests',
+    'github>aanm/renovate-base-branches//.github/renovate/renovate.json5#pr/aanm-test',
   ],
-  "baseBranches": [
-    "main",
-    "branch-2"
+  baseBranches: [
+    'main',
+    'branch-2',
   ],
-  "labels": [
-    "renovate/stop-updating-main",
-    "kind/enhancement-main",
-    "release-note/ignore-main",
-  ]
+  labels: [
+    'renovate/stop-updating-main',
+    'kind/enhancement-main',
+    'release-note/ignore-main',
+  ],
 }
