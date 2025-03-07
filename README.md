@@ -14,5 +14,5 @@ I was expecting to see the "labels" section getting picked from `.github/renovat
 
 ## Link to the Renovate issue or Discussion
 
-https://github.com/renovatebot/renovate/discussions/
+https://github.com/renovatebot/renovate/discussions/34678
 
