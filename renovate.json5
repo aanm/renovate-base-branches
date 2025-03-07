@@ -11,4 +11,9 @@
     "main",
     "branch-2"
   ],
+  "labels": [
+    "renovate/stop-updating-main",
+    "kind/enhancement-main",
+    "release-note/ignore-main",
+  ]
 }
