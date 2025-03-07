@@ -1,4 +1,4 @@
-# minimal-reproduction-template
+# 
 
 First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
 
@@ -6,12 +6,13 @@ Then replace the current `h1` with the Renovate Issue/Discussion number.
 
 ## Current behavior
 
-Explain the current behavior here.
+Renovate does not extend the root's configuration (in `renovate.json5`) with the configuration under (`.github/renovate/renovate.json5`)
 
 ## Expected behavior
 
-Explain the expected behavior here.
+I was expecting to see the "labels" section getting picked from `.github/renovate/renovate.json5`.
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+https://github.com/renovatebot/renovate/discussions/
+
