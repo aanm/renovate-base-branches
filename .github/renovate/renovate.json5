@@ -10,8 +10,8 @@
     "branch-4"
   ],
   "labels": [
-    "renovate/stop-updating",
-    "kind/enhancement",
-    "release-note/ignore",
+    "renovate/stop-updating-branch",
+    "kind/enhancement-branch",
+    "release-note/ignore-branch",
   ]
 }
