@@ -5,7 +5,7 @@
     ':gitSignOff',
     ':dependencyDashboard',
     'helpers:pinGitHubActionDigests',
-    'github>aanm/renovate-base-branches//.github/renovate/renovate.json5#pr/aanm-test',
+    'github>aanm/renovate-base-branches:.github/renovate/renovate.json5#pr/aanm-test',
   ],
   baseBranches: [
     'main-fork',
