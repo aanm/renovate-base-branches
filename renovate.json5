@@ -5,15 +5,10 @@
     ':gitSignOff',
     ':dependencyDashboard',
     'helpers:pinGitHubActionDigests',
-    'github>aanm/renovate-base-branches:.github/renovate/renovate.json5#pr/aanm-test',
+    'github>aanm/renovate-base-branches//.github/renovate/renovate.json5',
   ],
   baseBranches: [
-    'main-fork',
-    'branch-4',
-  ],
-  labels: [
-    'renovate/stop-updating-branch',
-    'kind/enhancement-branch',
-    'release-note/ignore-branch',
+    'main',
+    'branch-2',
   ],
 }
