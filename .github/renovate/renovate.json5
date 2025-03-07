@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    ":gitSignOff",
+    "helpers:pinGitHubActionDigests"
+  ],
+  "baseBranches": [
+    "main-fork",
+    "branch-4"
+  ],
+  "labels": [
+    "renovate/stop-updating",
+    "kind/enhancement",
+    "release-note/ignore",
+  ]
+}
