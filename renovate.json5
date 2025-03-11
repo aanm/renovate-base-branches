@@ -7,8 +7,4 @@
     'helpers:pinGitHubActionDigests',
     'github>aanm/renovate-base-branches//.github/renovate/renovate.json5',
   ],
-  baseBranches: [
-    'main',
-    'branch-2',
-  ],
 }

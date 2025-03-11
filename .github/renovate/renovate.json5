@@ -6,10 +6,6 @@
     ':dependencyDashboard',
     'helpers:pinGitHubActionDigests',
   ],
-  baseBranches: [
-    'main-fork',
-    'branch-4',
-  ],
   labels: [
     'renovate/stop-updating-branch',
     'kind/enhancement-branch',
